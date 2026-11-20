@@ -3,6 +3,8 @@ from pathlib import Path
 import shutil
 
 root=Path('licenses');root.mkdir(exist_ok=True)
+(root/'Vosk').mkdir(exist_ok=True)
+shutil.copy2('docs/Vosk-COPYING.txt',root/'Vosk'/'COPYING')
 lines=['JARVIS 0.1 — THIRD-PARTY COMPONENTS','',
 'The application uses dynamically linked Qt/PySide6 libraries. Their LGPL/commercial licensing options are described at https://doc.qt.io/qtforpython-6/licenses.html .',
 'LGPL users may replace the bundled dynamic libraries with compatible modified versions; no restriction on debugging those modifications is imposed by JARVIS. Corresponding upstream sources: https://download.qt.io/official_releases/QtForPython/ and https://download.qt.io/official_releases/qt/ .',

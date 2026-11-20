@@ -1,0 +1,9 @@
+{
+  "test_profile_preserved": true,
+  "scope": "Current Windows host; no clean second computer validation",
+  "executable_removed": true,
+  "uninstall_exit": 0,
+  "reinstall_exit": 0,
+  "installer_sha256": "E9253A7311511127686ACED275B61DF64523E1D8DFB66C275011488C440C0A76",
+  "installed_chat": "2026-11-20T13:32:19+02:00"
+}

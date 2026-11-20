@@ -1,9 +1,9 @@
 # Prioritized tasks
 
-- [ ] **Personal GitHub checkpoint (in progress):** confirmed ST10084585, private JARVIS, clean history excluding company metadata, scan and verified remote SHA. Keep original local branches. Push every tested milestone, or safe WIP every 15–20 minutes.
+- [x] **Personal GitHub checkpoint:** private ST10084585/JARVIS; clean root c8db2c3 verified remotely. Original local branches/work credentials preserved. Push every tested milestone, or safe WIP every 15–20 minutes.
 - [x] **Desktop launch foundation:** real packaged time chat, source restart persistence and cancellation verified; review fixes tested.
 - [x] **Local integration baseline:** real inference/unload, prerecorded speech round trip, isolated browser fixture and public page read. Live microphone/audible output unverified.
-- [ ] **Package/install milestone:** standalone executable, per-user installer/uninstaller, clean test profile, actual launch and persistence. No bundled personal data. Installer configures required local runtimes.
+- [x] **Package/install milestone (current host):** standalone executable, per-user installer/uninstaller, clean test profile, actual launch and persistence. No bundled personal data. Optional runtime setup controls supplied; clean second-PC bootstrap remains pending.
 - [ ] **Natural-language execution (next feature):** reuse tools/permissions; structured validated plans, saved skill invocation and bounded multistep execution; real search/diagnostics/read/create/skill tests and model reliability benchmark. No unrestricted shell or foreground takeover.
 - [ ] **Advanced teaching:** natural-language definitions and editing, broader examples and reviewed script adapters; deterministic tested/versioned skills, no invented Sesolos rules.
 - [ ] **Practical Watch & Learn:** explicit scoped authenticated browser workflow, protected inputs, reviewable steps and non-intrusive replay; then selected-window teaching.
