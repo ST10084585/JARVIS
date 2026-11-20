@@ -1,0 +1,10 @@
+JARVIS 0.1 — QUICK START
+
+1. Install and open JARVIS.
+2. Settings: Set up local AI automatically. Install browser runtime only if needed.
+3. Ask “What time is it?” or type /help.
+4. Authorize only the folders needed for your tasks.
+5. Teach and test a CSV workflow, then review and enable it.
+6. Use Eco mode. Close hides to tray; Quit stops the app.
+
+Read User-Guide.html or JARVIS-User-Guide.pdf for limitations.

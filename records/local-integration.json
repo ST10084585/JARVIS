@@ -1,0 +1,145 @@
+{
+  "models": [
+    "qwen3:0.6b"
+  ],
+  "inference": {
+    "model": "qwen3:0.6b",
+    "mode": "Eco",
+    "seconds": 77.05,
+    "characters": 171,
+    "response": "A local computer assistant is a program designed to help users interact with computers, often providing information, performing tasks, and assisting with daily operations."
+  },
+  "loaded_after_unload": {
+    "models": []
+  },
+  "speech": {
+    "input": "Hello. The computer is ready. Please open the report.",
+    "recognized": "hello the computer is ready please open the report",
+    "seconds": 1.79,
+    "wav_bytes": 272066,
+    "microphone_tested": false,
+    "audible_playback_tested": false
+  },
+  "audio_devices": [
+    {
+      "name": "Microsoft Sound Mapper - Input",
+      "index": 0,
+      "hostapi": 0,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.09,
+      "default_low_output_latency": 0.09,
+      "default_high_input_latency": 0.18,
+      "default_high_output_latency": 0.18,
+      "default_samplerate": 44100.0
+    },
+    {
+      "name": "Microphone Array (Realtek(R) Au",
+      "index": 1,
+      "hostapi": 0,
+      "max_input_channels": 4,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.09,
+      "default_low_output_latency": 0.09,
+      "default_high_input_latency": 0.18,
+      "default_high_output_latency": 0.18,
+      "default_samplerate": 44100.0
+    },
+    {
+      "name": "Primary Sound Capture Driver",
+      "index": 4,
+      "hostapi": 1,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.12,
+      "default_low_output_latency": 0.0,
+      "default_high_input_latency": 0.24,
+      "default_high_output_latency": 0.0,
+      "default_samplerate": 44100.0
+    },
+    {
+      "name": "Microphone Array (Realtek(R) Audio)",
+      "index": 5,
+      "hostapi": 1,
+      "max_input_channels": 4,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.12,
+      "default_low_output_latency": 0.0,
+      "default_high_input_latency": 0.24,
+      "default_high_output_latency": 0.0,
+      "default_samplerate": 44100.0
+    },
+    {
+      "name": "Microphone Array (Realtek(R) Audio)",
+      "index": 9,
+      "hostapi": 2,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.003,
+      "default_low_output_latency": 0.0,
+      "default_high_input_latency": 0.01,
+      "default_high_output_latency": 0.0,
+      "default_samplerate": 48000.0
+    },
+    {
+      "name": "PC Speaker (Realtek HD Audio output with SST)",
+      "index": 12,
+      "hostapi": 3,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.01,
+      "default_low_output_latency": 0.01,
+      "default_high_input_latency": 0.04,
+      "default_high_output_latency": 0.04,
+      "default_samplerate": 48000.0
+    },
+    {
+      "name": "Stereo Mix (Realtek HD Audio Stereo input)",
+      "index": 13,
+      "hostapi": 3,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.01,
+      "default_low_output_latency": 0.01,
+      "default_high_input_latency": 0.04,
+      "default_high_output_latency": 0.04,
+      "default_samplerate": 48000.0
+    },
+    {
+      "name": "PC Speaker (Realtek HD Audio 2nd output with SST)",
+      "index": 16,
+      "hostapi": 3,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.01,
+      "default_low_output_latency": 0.01,
+      "default_high_input_latency": 0.04,
+      "default_high_output_latency": 0.04,
+      "default_samplerate": 48000.0
+    },
+    {
+      "name": "Microphone Array 1 (Realtek HD Audio Mic input with SST)",
+      "index": 17,
+      "hostapi": 3,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.01,
+      "default_low_output_latency": 0.01,
+      "default_high_input_latency": 0.04,
+      "default_high_output_latency": 0.04,
+      "default_samplerate": 48000.0
+    },
+    {
+      "name": "Microphone Array 2 (Realtek HD Audio Mic input with SST)",
+      "index": 18,
+      "hostapi": 3,
+      "max_input_channels": 4,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.01,
+      "default_low_output_latency": 0.01,
+      "default_high_input_latency": 0.04,
+      "default_high_output_latency": 0.04,
+      "default_samplerate": 16000.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "scanned_blob_or_file_count": 77,
+  "credential_pattern_findings": [],
+  "prohibited_candidate_files": [],
+  "large_candidate_files": [],
+  "history_metadata": "Existing two commits carry company author/committer metadata. Do not upload their ancestry; preserve original local branch and create a clean personal branch after account approval.",
+  "limitations": "Pattern scan is not proof of absence. Current source/docs and tracked inventory also reviewed; dummy token test fixtures are non-credentials. No proprietary external source or user databases identified in candidate files."
+}

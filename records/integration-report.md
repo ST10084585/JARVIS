@@ -1,0 +1,11 @@
+# Voice and browser implementation verification
+
+2026-11-19. Implemented `jarvis/voice.py`, `jarvis/browser.py`. API contract: `docs/integration-contract.md`.
+
+Initial test run failed because browser module did not exist. After implementation, `..\venv\Scripts\python.exe -m unittest tests.test_integrations -v` passed 11 policy tests; 1 real Chromium test skipped pending parent-managed dependency installation. Tests cover public URL restriction, private DNS, redirect-to-private refusal before opening a second socket, pinned connection address, body size refusal, replay consent and arbitrary-code/click rejection, capture pause/stop/delete, local recording persistence and review draft, pre-cancellation, absent speech model handling.
+
+Live integration status at handoff: importing Playwright in shared venv reports ModuleNotFoundError; no live browser, SAPI output, Vosk decoding, or microphone test claimed. Once dependencies exist, set `JARVIS_RUN_BROWSER_TEST=1` and run the same tests to exercise actual headless Chromium rendering against an in-memory fetched HTML fixture. This tests real rendering with script disabled, not live network fetching. No microphone activated. Parent can separately run generated SAPI WAV through `SpeechService.transcribe_wav` after model arrives.
+
+Boundaries: no always-on microphone/wake word; no arbitrary desktop screen recording, global hooks, page screenshots, account-session reuse, form replay or website JavaScript. Visible recorder only supports public HTML documents with navigation/click metadata and explicit annotations. Exported workflow requires review; generic clicks are deliberately unreplayable. Query/fragment and sensitive path patterns omitted; annotations are user-provided and may contain personal information. DNS resolution uses OS resolver and can exceed the nominal 20-second network deadline; read cancellation is checked between bounded socket operations, so not instantaneous during DNS/socket calls. Capture pause/stop flags take effect synchronously before thread cleanup. Website redirects are fetched securely but fulfilled at original browser URL in observation mode, so relative links on redirected sites may not work; reader returns actual final URL.
+
+Primary API references checked: https://playwright.dev/python/docs/api/class-page and https://playwright.dev/python/docs/api/class-route .

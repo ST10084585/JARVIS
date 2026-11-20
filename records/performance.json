@@ -1,0 +1,16 @@
+{
+  "pid": 22156,
+  "sample_seconds": 20.02,
+  "cpu_percent_one_core": 1.327,
+  "cpu_percent_machine": 0.083,
+  "rss_mb_max": 94.42,
+  "read_bytes_delta": 390153,
+  "write_bytes_delta": 327457,
+  "csv_workload": {
+    "rows": 10000,
+    "seconds": 0.025,
+    "foreground_unchanged": true,
+    "clipboard_sequence_unchanged": true,
+    "scope": "direct engine on disposable files while packaged UI idles; no active typing or mouse movement test"
+  }
+}
